@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.head_text {
+  @apply mt-4 text-4xl font-extrabold leading-[1.15] text-black sm:text-5xl;
+}
+
+.purple_gradient {
+  @apply bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent;
+}
+
+.feed {
+  @apply mt-14 mx-auto w-full max-w-xl flex justify-center items-center flex-col gap-2;
+}
+
+.post_card {
+  @apply flex-1 break-inside-avoid rounded-lg border border-gray-300 bg-white/20 bg-clip-padding p-6 pb-4 backdrop-blur-lg backdrop-filter md:w-[720px] w-full h-fit;
+}
